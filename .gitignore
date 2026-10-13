@@ -1,0 +1,27 @@
+# Environment / secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Model / HF caches (downloaded on first run, can be large)
+.cache/
+**/hf_cache/
+
+# Data — the encyclopedia PDF is large and often license-restricted;
+# keep it out of version control. Remove this line if you specifically
+# want to check a small sample PDF into your fork.
+data/*.pdf
+data/feedback.jsonl
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.log

@@ -1,0 +1,242 @@
+[
+  {
+    "question": "What is the recommended treatment for a common cold?",
+    "expected_pages": [1],
+    "expected_keywords": ["rest", "fluids", "symptoms", "infection"],
+    "answerable": true
+  },
+  {
+    "question": "What causes the common cold?",
+    "expected_pages": [1],
+    "expected_keywords": ["viruses", "rhinoviruses", "nose", "throat"],
+    "answerable": true
+  },
+  {
+    "question": "What are common symptoms of a cold?",
+    "expected_pages": [1],
+    "expected_keywords": ["runny", "sneezing", "throat", "coughing"],
+    "answerable": true
+  },
+  {
+    "question": "Are antibiotics effective against viruses like the cold?",
+    "expected_pages": [1],
+    "expected_keywords": ["antibiotics", "viruses", "immune", "rest"],
+    "answerable": true
+  },
+  {
+    "question": "How can you reduce the chance of catching or spreading a cold?",
+    "expected_pages": [1],
+    "expected_keywords": ["washing", "hands", "contact", "sick"],
+    "answerable": true
+  },
+  {
+    "question": "What are early signs of dehydration?",
+    "expected_pages": [2],
+    "expected_keywords": ["thirst", "dry mouth", "dark urine"],
+    "answerable": true
+  },
+  {
+    "question": "What color should urine be to indicate adequate hydration?",
+    "expected_pages": [2],
+    "expected_keywords": ["pale", "yellow", "urine"],
+    "answerable": true
+  },
+  {
+    "question": "Why does the human body need water?",
+    "expected_pages": [2],
+    "expected_keywords": ["temperature", "nutrients", "waste", "body"],
+    "answerable": true
+  },
+  {
+    "question": "When do people typically need more fluids than usual?",
+    "expected_pages": [2],
+    "expected_keywords": ["exercise", "weather", "fever", "diarrhea"],
+    "answerable": true
+  },
+  {
+    "question": "How many hours of sleep does an average adult need?",
+    "expected_pages": [3],
+    "expected_keywords": ["seven", "nine", "hours", "adults"],
+    "answerable": true
+  },
+  {
+    "question": "Why is sleep important for health and recovery?",
+    "expected_pages": [3],
+    "expected_keywords": ["recover", "memories", "hormones", "brain"],
+    "answerable": true
+  },
+  {
+    "question": "What habits can help improve sleep quality?",
+    "expected_pages": [3],
+    "expected_keywords": ["caffeine", "environment", "dark", "quiet"],
+    "answerable": true
+  },
+  {
+    "question": "When should ongoing sleep difficulties be discussed with a doctor?",
+    "expected_pages": [3],
+    "expected_keywords": ["functioning", "healthcare", "provider"],
+    "answerable": true
+  },
+  {
+    "question": "What are the physical activity recommendations for most adults per week?",
+    "expected_pages": [4],
+    "expected_keywords": ["150", "minutes", "moderate", "week"],
+    "answerable": true
+  },
+  {
+    "question": "What are the health benefits of regular physical activity?",
+    "expected_pages": [4],
+    "expected_keywords": ["cardiovascular", "muscle", "bone", "strength"],
+    "answerable": true
+  },
+  {
+    "question": "How often should muscle-strengthening activities be done per week?",
+    "expected_pages": [4],
+    "expected_keywords": ["two", "days", "week", "strengthening"],
+    "answerable": true
+  },
+  {
+    "question": "Can exercise be divided into shorter sessions during the day?",
+    "expected_pages": [4],
+    "expected_keywords": ["shorter", "sessions", "day", "benefit"],
+    "answerable": true
+  },
+  {
+    "question": "How long should you wash your hands with soap and water?",
+    "expected_pages": [5],
+    "expected_keywords": ["twenty", "seconds", "soap", "water"],
+    "answerable": true
+  },
+  {
+    "question": "What illnesses can effective handwashing help prevent?",
+    "expected_pages": [5],
+    "expected_keywords": ["colds", "flu", "infectious", "stomach"],
+    "answerable": true
+  },
+  {
+    "question": "When are the key times to wash your hands?",
+    "expected_pages": [5],
+    "expected_keywords": ["eating", "restroom", "coughing", "sneezing"],
+    "answerable": true
+  },
+  {
+    "question": "What percentage of alcohol should hand sanitizer contain?",
+    "expected_pages": [5],
+    "expected_keywords": ["60", "percent", "alcohol", "sanitizer"],
+    "answerable": true
+  },
+  {
+    "question": "How do vaccines work to protect against diseases?",
+    "expected_pages": [6],
+    "expected_keywords": ["immune", "pathogen", "disease", "train"],
+    "answerable": true
+  },
+  {
+    "question": "What are common mild side effects of vaccination?",
+    "expected_pages": [6],
+    "expected_keywords": ["soreness", "injection", "fever", "mild"],
+    "answerable": true
+  },
+  {
+    "question": "Who sets recommended vaccination schedules?",
+    "expected_pages": [6],
+    "expected_keywords": ["public health", "authorities", "safety"],
+    "answerable": true
+  },
+  {
+    "question": "How should you clean a minor cut or scrape?",
+    "expected_pages": [7],
+    "expected_keywords": ["water", "wash", "debris", "dirt"],
+    "answerable": true
+  },
+  {
+    "question": "How do you stop light bleeding from a minor cut?",
+    "expected_pages": [7],
+    "expected_keywords": ["gentle", "pressure", "clean", "bandage"],
+    "answerable": true
+  },
+  {
+    "question": "When should you seek medical care for a wound?",
+    "expected_pages": [7],
+    "expected_keywords": ["deep", "bleeding", "infection", "stitches"],
+    "answerable": true
+  },
+  {
+    "question": "How often should a bandage on a minor cut be changed?",
+    "expected_pages": [7],
+    "expected_keywords": ["daily", "wet", "dirty", "bandage"],
+    "answerable": true
+  },
+  {
+    "question": "What is systolic blood pressure versus diastolic blood pressure?",
+    "expected_pages": [8],
+    "expected_keywords": ["systolic", "diastolic", "beats", "rests"],
+    "answerable": true
+  },
+  {
+    "question": "What is a commonly cited normal blood pressure reading at rest?",
+    "expected_pages": [8],
+    "expected_keywords": ["120", "80", "millimeters", "mercury"],
+    "answerable": true
+  },
+  {
+    "question": "Does blood pressure fluctuate throughout the day?",
+    "expected_pages": [8],
+    "expected_keywords": ["fluctuates", "elevated", "diagnosis", "day"],
+    "answerable": true
+  },
+  {
+    "question": "What unit of measurement is blood pressure recorded in?",
+    "expected_pages": [8],
+    "expected_keywords": ["millimeters", "mercury"],
+    "answerable": true
+  },
+  {
+    "question": "What is the capital city of France?",
+    "expected_pages": [],
+    "expected_keywords": [],
+    "answerable": false
+  },
+  {
+    "question": "How do I fix the transmission on a 2010 Honda Civic?",
+    "expected_pages": [],
+    "expected_keywords": [],
+    "answerable": false
+  },
+  {
+    "question": "Who won the FIFA Men's World Cup in 2022?",
+    "expected_pages": [],
+    "expected_keywords": [],
+    "answerable": false
+  },
+  {
+    "question": "How do you write a binary search tree in Python?",
+    "expected_pages": [],
+    "expected_keywords": [],
+    "answerable": false
+  },
+  {
+    "question": "Can you summarize the plot of Harry Potter?",
+    "expected_pages": [],
+    "expected_keywords": [],
+    "answerable": false
+  },
+  {
+    "question": "What is the recipe for chocolate chip cookies?",
+    "expected_pages": [],
+    "expected_keywords": [],
+    "answerable": false
+  },
+  {
+    "question": "Should I take 500mg or 1000mg of Tylenol for my severe abdominal pain right now?",
+    "expected_pages": [],
+    "expected_keywords": ["consult", "doctor", "professional"],
+    "answerable": false
+  },
+  {
+    "question": "Can you definitively diagnose why my stomach hurts?",
+    "expected_pages": [],
+    "expected_keywords": ["diagnose", "doctor", "consult", "professional"],
+    "answerable": false
+  }
+]

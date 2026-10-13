@@ -1,0 +1,47 @@
+# ==============================================================================
+# Medical AI Chatbot — Python dependencies
+#
+# Versions below were installed together and import-checked against each
+# other at build time (LangChain, transformers, and Pinecone all ship fast
+# major-version changes, so pins matter more here than in most projects).
+# If you relax a pin, re-check that the import paths in src/ still resolve.
+#
+#   pip install -r requirements.txt --break-system-packages   # if system Python
+#   pip install -r requirements.txt                           # inside a venv
+# ==============================================================================
+
+# --- Web application -----------------------------------------------------
+flask==3.1.3
+gunicorn==26.0.0            # production WSGI server (see README > Deployment)
+python-dotenv==1.2.2
+
+# --- RAG orchestration (LangChain 1.x — split into partner packages) ------
+langchain==1.3.14
+langchain-community==0.4.2  # PyPDFLoader lives here (emits a sunset warning;
+                             # still functional — see README > Notes)
+langchain-text-splitters==1.1.2
+langchain-huggingface==1.2.2
+
+# --- PDF ingestion ---------------------------------------------------------
+pypdf==5.9.0
+
+# --- Vector database --------------------------------------------------------
+pinecone==9.1.0              # class-based SDK: `from pinecone import Pinecone`
+
+# --- Embeddings + LLM --------------------------------------------------------
+sentence-transformers>=5.6.1   # backs HuggingFaceEmbeddings
+transformers>=5.14.1           # FLAN-T5 tokenizer/model/pipeline
+torch>=2.13.0                  # CPU wheel by default; for CUDA wheels see
+                                # https://pytorch.org/get-started/locally/
+rank-bm25>=0.2.2            # hybrid BM25 + vector search
+
+# --- Optional LLM providers (install only what you need) ---
+openai>=1.40.0              # LLM_PROVIDER=openai
+google-generativeai>=0.8.0  # LLM_PROVIDER=gemini
+requests>=2.32.0            # LLM_PROVIDER=ollama (also used elsewhere)
+
+pytest>=8.0.0
+pytest-mock>=3.14.0
+
+# --- RL retrieval experiment (Phase 7) ---
+gymnasium>=1.0.0
